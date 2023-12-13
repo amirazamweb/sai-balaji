@@ -1,0 +1,100 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  .logo{
+    margin-left: 539px;
+    margin-top: 7px;
+    height: 48px;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+.logo{
+    margin-left: 560px;
+    margin-top: 30px;
+    height: 74px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.logo-mob{
+     height: 74px !important;
+    margin-left: 35px !important;
+    margin-top: 25px !important;
+}
+.progressbarmob {
+    
+    margin-left: 50px !important;
+}
+.progressbarmob li {
+    
+    font-size: 10px !important;
+    
+}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+   .logo-mob{
+      height: 74px !important;
+    margin-left: 35px !important;
+    margin-top: 25px !important;
+}
+.progressbarmob {
+    
+    margin-left: 50px !important;
+}
+.progressbarmob li {
+    
+    font-size: 10px !important;
+    
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 330px to 479px
+*/
+
+@media (min-width: 330px) and (max-width: 480px) {
+.logo-mob{
+      height: 38px !important;
+    margin-left: 108px !important;
+    margin-top: 7px !important;
+}
+.progressbarmob {
+    
+    margin-left: 50px !important;
+}
+.progressbarmob li {
+    
+    font-size: 10px !important;
+    
+}
+}
+/*iphone css*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+{ 
+
+}

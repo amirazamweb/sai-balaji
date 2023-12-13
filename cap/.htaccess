@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^([^/\.]+)?$ index?education_name=$1
+RewriteRule ^([^/\.]+)/([^/\.]+)?$ index?course_name=$1&slug=$2
+RewriteRule ^([0-9]+)/([^/\.]+)?$ index?filter_city_id=$1&city_name=$2
+RewriteRule ^([0-9]+)/([^/\.]+)/([^/\.]+)?$ index?filter_city_id=$1&city_name=$2&course_name=$3
+RewriteRule ^([0-9]+)/([^/\.]+)/([^/\.]+)?$ index?filter_state_id=$1&state_name=$2&course_name=$3
+RewriteRule ^([0-9]+)/([^/\.]+)/([^/\.]+)?$ index?filter_city_id=$1&city_name=$2&education_name=$3
+RewriteRule ^([0-9]+)/([^/\.]+)/([^/\.]+)?$ filter_streams?state_id=$1&city_id=$2&course_id=$3&eduaction_id=$4
+#https://careermantra.net/colleges//filter_streams?state_id=22&city_id=&course_id=&eduaction_id=
+#RewriteRule ^([0-9]+)/([^/\.]+)/([^/\.]+)?$ index?id=$1&city=$2&course=$3

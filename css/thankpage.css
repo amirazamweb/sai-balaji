@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* only for thanks page */
+
+.thanks_page{
+  text-align: center;
+  /* padding-top: 30px; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.thanks__logo{
+ width: 100%;
+ padding: 2px 130px;
+ background-color: #ffff;
+ text-align: left;
+}
+
+.thanks__image{
+  width: 380px !important;
+}
+
+.thanks-page-btn{
+  background-color:#5990A2;
+  padding:12px 25px;
+  cursor:pointer;
+  margin-top: 20px;
+  border-style: none;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.thanks_page p{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+
+.thanks-page-btn a{
+  text-decoration: none;
+  color: #fff
+}
+
+.whatsapp__image{
+  width: 230px;
+  margin-bottom: 15px;
+}
+
+.thanks_page h6{
+  font-size: 18px;
+}
+
+ @media only screen and(max-width: 600px){
+   .thanks_page h6 {
+     font-size: 32px !important;
+ }
+ }
